@@ -1,0 +1,16 @@
+.topheroes{
+    border-style: solid;
+    height: 1cm;
+    width: 3cm;
+    background-color: black;
+    color: white;
+}
+.back-button{
+    border-style: solid;
+    height: 1cm;
+    width: 3cm;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 3cm;
+}

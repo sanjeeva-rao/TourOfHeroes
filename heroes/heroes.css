@@ -1,0 +1,23 @@
+.heroesname{
+    border-style: solid;
+    height: 1cm;
+    width: 5.5cm;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+   
+}
+#name{
+    position: relative;
+    top: 0.2cm;
+}
+.back-button{
+    border-style: solid;
+    height: 1cm;
+    width: 3cm;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 3cm;
+}

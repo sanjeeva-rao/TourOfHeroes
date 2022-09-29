@@ -1,0 +1,12 @@
+<br>
+<div ng-repeat="x in array" ng-hide="cond1">
+    <div class="heroesname" ng-click="changename($index)">{{x.id}}<input id="name" ng-model="x.name"></div>
+    <br>
+</div>
+<div ng-show="cond1">
+    <h1>{{name}}</h1>
+    <p>id={{id}}</p>
+    <h2>Hero Name:<input ng-model="name"></h2>
+    <button  ng-click="totalchange(id)" class="back-button">back</button>
+
+</div>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="db/dashboard.css">
+    <link rel="stylesheet" href="heroes/heroes.css">
+
+</head>
+<body>
+    <div ng-app="myapp" ng-controller="mainController" id="total">
+        <h1 id="heading">Tour of Heroes</h1>
+        <div id="buttondiv">
+            <button ng-click="goToPage('/db')" id="db-button">Dashboard</button>
+            <button ng-click="goToPage('/heroes')" id="heroes-button">Heroes</button>
+
+        </div>
+        
+        
+        
+        <div ng-view></div>
+        
+
+    </div>
+    <script src="myapp.js"></script>
+    <script src="mainController.js"></script>
+    <script src="db/dashboard.js"></script>
+    <script src="heroes/heroes.js"></script>
+</body>
+</html>

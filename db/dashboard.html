@@ -1,0 +1,20 @@
+<div >
+    <div ng-hide="cond1">
+        <h2>Top Heroes</h2>
+        <span ng-repeat="x in topheroes" >
+            <button class="topheroes"  ng-click="editname($index)" >{{x.name}}</button>
+
+        </span>
+
+    </div>
+    
+
+    <div ng-show="cond1">
+        <h1>{{name}}</h1>
+        <p>id={{id}}</p>
+        <h2>Hero Name:<input ng-model="name"></h2>
+        <button class="back-button" ng-click="totalchange(id)">back</button>
+
+    </div>
+
+</div>
